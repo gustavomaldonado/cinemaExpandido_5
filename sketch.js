@@ -41,7 +41,7 @@ function setup() {
 
 
 function draw() {
-  background(0);
+  background(255);
   rect(50, 50, 50, 51);
   drawVideo4();
   toggleVideo();
@@ -101,7 +101,7 @@ function draw() {
       video.pause();
     }
 }
-    
 
- 
+
+print(video.duration());
  
