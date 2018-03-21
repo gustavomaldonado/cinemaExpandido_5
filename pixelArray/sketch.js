@@ -42,6 +42,7 @@ function setup() {
 
 function draw() {
   background(0);
+  rect(50, 50, 50, 51);
   drawVideo4();
   toggleVideo();
 }
