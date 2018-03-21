@@ -40,6 +40,7 @@ function setup() {
 function draw() {
   background(255);
   drawVideo();
+  rect(51,51,51,51);
 }
 
  /*
@@ -51,7 +52,7 @@ function draw() {
  */
  
  function initilizeVideo(){
-  video = createVideo("assets/videos/video2.mp4");
+  video = createVideo("assets/videos/pendulum.MOV");
   video.loop();
   video.hide();
  }
